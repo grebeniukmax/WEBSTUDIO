@@ -1,0 +1,113 @@
+/*HEADER*/
+.body {
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.ul-header {
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 400;
+    color: black;
+    margin-right: 90px;
+}
+.span-header {
+    color: #2196F3;
+}
+.a-header {
+color: rgb(33, 33, 33);
+font-family: "Roboto";
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 2%;
+text-align: left;
+}
+.svg-one {
+    width: 16px;
+    height: 24px;
+    
+}
+.svg-two {
+    width: 10px;
+    height: 16px;
+    
+}
+.contacts {
+    padding-left: 15px;
+    padding-right: 125px;
+}
+.header-items-one {
+    margin-top: 28px;
+}
+.header-items-two {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 28px;
+}
+.header-items-three {
+    margin-right: 320px;
+    margin-top: 28px;
+}
+.header-items-four {
+    margin-right: 10px;
+    margin-top: 29px;
+}
+.header-items-five {
+    margin-right: 40px;
+    margin-top: 30px;
+}
+.header-items-six {
+    margin-right: 10px;
+    margin-top: 32px;
+}
+.header-items-seven {
+    margin-top: 30px;
+}
+.header-items-logo  {
+    margin-top: 20px;
+    margin-top: 25px;
+}
+.two-ul {
+    display: flex;
+}
+/*MAIN*/
+
+/*ADAPTIVE*/
+@media screen and (min-width:1200px) {
+    .body {
+        width: 1200px;
+    }
+}
+
+@media screen and (max-width:1023px) and (min-width:768px){
+    .body {
+        width: 768px;
+    }
+    .two-ul {
+        display: grid;
+    }
+    .header-items-five {
+        position: absolute;
+        padding-top: -200px;
+        margin-left: 25px;
+    }
+    .header-items-six {
+        margin-top: -5px;
+        margin-left: 3px;
+    }
+    .header-items-seven {
+        margin-left: 27px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:480) {
+    .body {
+        width: 480px;
+    }
+}
